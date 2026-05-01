@@ -1,11 +1,8 @@
-'use client';
-
-import { useRouter } from 'next/navigation';
-
 export default function HomePage() {
-  const router = useRouter();
-
-  // Simple redirect to dashboard
-  router.push('/dashboard');
-  return null;
+  return (
+    <div>
+      <h1>TaskFlow - Team Task Manager</h1>
+      <p>Redirecting to dashboard...</p>
+    </div>
+  );
 }
