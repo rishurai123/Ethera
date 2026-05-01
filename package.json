@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
     "client": "cd client-nextjs && npm run dev",
-    "build": "cd client-nextjs && npm run build",
+    "build": "cd client-nextjs && npm ci && npm run build",
     "start": "cd server && npm start"
   },
   "keywords": ["task-manager", "team", "project-management", "full-stack"],
